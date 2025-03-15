@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Book Tools - Fun Generators for Kids!</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #4CAF50, #81C784); /* Green gradient */
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #FF6F61; /* Bright pink for contrast */
+            margin: 0;
+            animation: bounce 2s infinite;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Tools Grid */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .tool-card {
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .tool-card img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+        }
+
+        .tool-card h3 {
+            font-size: 1.5rem;
+            color: #4CAF50; /* Green to match the theme */
+            margin: 10px 0;
+        }
+
+        .tool-card p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .tool-card button {
+            padding: 10px 20px;
+            background: #FF6F61; /* Bright pink for contrast */
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .tool-card button:hover {
+            background: #FF4A3D; /* Darker pink on hover */
+        }
+
+        /* AdMob Banner */
+        .ad-banner {
+            text-align: center;
+            margin: 20px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .ad-banner img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            margin-top: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Kids Book Tools �</h1>
+            <p>Fun and creative generators for kids' books!</p>
+        </header>
+
+        <!-- AdMob Banner -->
+        <div class="ad-banner">
+            <img src="https://via.placeholder.com/728x90" alt="Ad Banner">
+        </div>
+
+        <!-- Tools Grid -->
+        <div class="tools-grid">
+            <!-- Tool 1: Word Search Book Generator -->
+            <div class="tool-card">
+                <img src="https://img.icons8.com/color/100/word-search.png" alt="Word Search">
+                <h3>Word Search Book Generator</h3>
+                <p>Create fun word search puzzles for kids!</p>
+                <button onclick="location.href='word-search.html'">Get Started</button>
+            </div>
+
+            <!-- Tool 2: Coloring Book Generator -->
+            <div class="tool-card">
+                <img src="https://img.icons8.com/color/100/coloring-book.png" alt="Coloring Book">
+                <h3>Coloring Book Generator</h3>
+                <p>Turn images into coloring pages for kids!</p>
+                <button onclick="location.href='coloring-book.html'">Get Started</button>
+            </div>
+
+            <!-- Tool 3: Maze Book Generator -->
+            <div class="tool-card">
+                <img src="https://img.icons8.com/color/100/maze.png" alt="Maze">
+                <h3>Maze Book Generator</h3>
+                <p>Generate fun mazes for kids to solve!</p>
+                <button onclick="location.href='maze-book.html'">Get Started</button>
+            </div>
+
+            <!-- Tool 4: Story Book Generator -->
+            <div class="tool-card">
+                <img src="https://img.icons8.com/color/100/story-book.png" alt="Story Book">
+                <h3>Story Book Generator</h3>
+                <p>Create custom storybooks for kids!</p>
+                <button onclick="location.href='story-book.html'">Get Started</button>
+            </div>
+
+            <!-- Add more tools here -->
+            <!-- Example: -->
+            <div class="tool-card">
+                <img src="https://img.icons8.com/color/100/puzzle.png" alt="Puzzle">
+                <h3>Puzzle Book Generator</h3>
+                <p>Generate fun puzzles for kids!</p>
+                <button onclick="location.href='puzzle-book.html'">Get Started</button>
+            </div>
+
+            <div class="tool-card">
+                <img src="https://img.icons8.com/color/100/connect-the-dots.png" alt="Connect the Dots">
+                <h3>Connect the Dots Generator</h3>
+                <p>Create connect-the-dots activities for kids!</p>
+                <button onclick="location.href='connect-dots.html'">Get Started</button>
+            </div>
+
+            <!-- Repeat for other tools -->
+        </div>
+
+        <!-- AdMob Banner -->
+        <div class="ad-banner">
+            <img src="https://via.placeholder.com/728x90" alt="Ad Banner">
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2023 Kids Book Tools. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
